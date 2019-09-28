@@ -1,0 +1,13 @@
+{
+    "resolution": {
+        "width": 1280,
+        "height": 720
+    },
+    "window": {
+        "fullscreen":    false,
+        "resizable":     true,
+        "centered":      true,
+        "mouse_visible": false,
+        "scale":         1
+    }
+}

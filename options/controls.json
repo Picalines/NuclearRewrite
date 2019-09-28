@@ -1,0 +1,26 @@
+{
+    "walk": {
+        "up":    "w",
+        "down":  "s",
+        "left":  "a",
+        "right": "d"
+    },
+    "weapon": {
+        "pickup/drop": "e",
+        "next":        "q",
+        "shoot":       1,
+        "reload":      2   
+    },
+    "abilities": {
+        "dodgeroll": "space",
+        "special":   "lshift"
+    },
+    "items": {
+        "pickup": "e"
+    },
+    "game": {
+        "pause":      "escape",
+        "console":    "~",
+        "screenshot": "f1"
+    }
+}

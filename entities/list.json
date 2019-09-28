@@ -1,0 +1,30 @@
+[
+    {
+        "folder": "entities", "key": "entities",
+        "files": [
+            
+            { "key": "base",       "name": "bases/entity.lua" },
+            { "key": "Projectile", "name": "bases/projectile.lua" },
+            { "key": "Weapon",     "name": "bases/weapon.lua" },
+            { "key": "Mob",        "name": "bases/mob.lua" },
+
+            { "key": "player",     "name": "mobs/player.lua" },
+            { "key": "skeleton",   "name": "mobs/skeleton.lua" },
+            { "key": "plant",      "name": "mobs/plant.json" },
+
+            { "key": "pistol",       "name": "weapons/pistol.lua" },
+            { "key": "plant_pistol", "name": "weapons/plant_weapon.lua" },
+            { "key": "machinegun",   "name": "weapons/machinegun.lua" },
+            { "key": "lazer_pistol", "name": "weapons/lazer_pistol.json" },
+
+            { "key": "bullet",       "name": "projectiles/bullet.lua" },
+            { "key": "lazer_bullet", "name": "projectiles/lazer_bullet.lua" },
+            { "key": "seed_bullet",  "name": "projectiles/seed.lua" },
+            { "key": "lazer",        "name": "projectiles/lazer.lua" },
+
+            { "key": "liquid",       "name": "mobs/liquid.lua" },
+            { "key": "water_liquid", "name": "mobs/water_liq.lua" }
+            
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "folder": "scenes",
+        "key":    "scenes",
+        "files": [
+            { "name": "MainMenu.lua",   "key": "MainMenu" },
+            { "name": "Space.lua",      "key": "Space" },
+            { "name": "GameScreen.lua", "key": "GameScreen" },
+            { "name": "minimap.lua",    "key": "Minimap" },
+            { "name": "room.lua",       "key": "Room" },
+            { "name": "level.lua",      "key": "Level" }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+{
+    "size_types": {
+        "small":  { "space": [10, 13], "rooms": [4, 6],   "sprite": 1 },
+        "medium": { "space": [14, 16], "rooms": [7, 9],   "sprite": 2 },
+        "big":    { "space": [17, 25], "rooms": [10, 15], "sprite": 3 }
+    },
+    "name_parts": [
+        "proxima", "centavra", "alpha", "omega", "A", "B", "C", "red", "blue", "pink"
+    ],
+    "templates": [
+        {
+            "size_type":    ["small", "medium", "big"],
+            "difficulty":   0.1,
+            "maps_folder":  "desert",
+            "sprite_group": 1,
+            "type": "asteroid"
+        },
+        {
+            "size_type":    ["small", "medium", "big"],
+            "difficulty":   0.1,
+            "maps_folder":  "desert",
+            "sprite_group": 2,
+            "type": "desert"
+        },
+        {
+            "size_type":    ["small", "medium", "big"],
+            "difficulty":   0.4,
+            "maps_folder":  "desert",
+            "sprite_group": 3,
+            "type": "plain"
+        }
+    ]
+}

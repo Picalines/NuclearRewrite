@@ -1,0 +1,9 @@
+{
+    "parent":     "EntityClasses.pistol",
+    "type_id":    "lazer_pistol",
+    "sprite":     "Assets: entities.lazer_pistol",
+    "projectile": "lazer",
+    "info": {
+        "ammo_bar_sprite": "Assets: icons.lazer_ammo"
+    }
+}

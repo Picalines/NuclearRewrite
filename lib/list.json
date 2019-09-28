@@ -1,0 +1,43 @@
+[
+    {
+        "folder": "utils",
+        "key": "utils",
+        "files": [
+            { "name": "math.lua",   "key": "utils_math" },
+            { "name": "other.lua",  "key": "utils_other" },
+            { "name": "string.lua", "key": "utils_string" },
+            { "name": "table.lua",  "key": "utils_table" }
+        ]
+    },
+    {
+        "folder": "lib",
+        "key": "libs",
+        "files": [
+            { "name": "vec2.lua",  "key": "vec2" },
+            { "name": "vec3.lua",  "key": "vec3" },
+            { "name": "color.lua", "key": "color" },
+            { "name": "vec2.lua",  "key": "vec2" },
+            { "name": "HC.lua", "key": "HC", "cantFindFileErrorProtect": true },
+            { "name": "Physics.lua", "key": "physicsSystem" },
+            { "name": "UI_lib/ui.lua",     "key": "UI" },
+            { "name": "UI_lib/button.lua", "key": "Button" },
+            { "name": "UI_lib/label.lua",  "key": "Label" },
+            { "name": "UI_lib/bar.lua",    "key": "Bar" },
+            { "name": "UI_lib/spritebar.lua",    "key": "SpriteBar" },
+            { "name": "SceneManager.lua",  "key": "SceneManager" },
+            { "name": "Scene.lua",  "key": "Scene" },
+            { "name": "Renderer.lua",  "key": "Renderer" },
+            { "name": "slam.lua",      "key": "slam" },
+            { "name": "cscreen.lua",   "key": "CScreen" },
+            { "name": "Timer.lua",  "key": "Timer" },
+            { "name": "camera.lua",  "key": "Camera" },
+            { "name": "console.lua",  "key": "Console" },
+            { "name": "animation.lua",  "key": "Animation" },
+            { "name": "particleSystem.lua",  "key": "particleSystem" },
+            { "name": "entitySystem.lua",  "key": "entitySystem" },
+            { "name": "xml2lua.lua",  "key": "xmlLoader" },
+            { "name": "tiledmap.lua", "key": "tiledmap" },
+            { "name": "cursor.lua",   "key": "Cursor" }
+        ]
+    }
+]

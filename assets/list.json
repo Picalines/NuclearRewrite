@@ -1,0 +1,114 @@
+[
+    {
+        "folder": "assets",
+        "key": "assets",
+        "files": [
+
+            { "name": "MISSING_TEXTURE.png", "key": "missing" },
+
+            { "folder": "fonts", "key": "fonts",
+                "files": [
+                    { "name": "Arial.ttf",        "key": "Arial" },
+                    { "name": "visitor.ttf",      "key": "visitor" },
+                    { "name": "pixelFJ8pt.ttf",   "key": "pixelFJ8" },
+                    { "name": "PressStart2P.ttf", "key": "ps2P" },
+                    { "name": "runescape_uf.ttf", "key": "runeSpace" },
+                    { "name": "Pixeltype.ttf",    "key": "pixelType" }
+                ]
+            },
+
+            { "folder": "shaders", "key": "shaders",
+                "files": [
+                    { "name": "bw.lua", "key": "bw" }
+                ]
+            },
+
+            { "folder": "GUIs", "key": "GUIs",
+                "files": [
+                    { "name": "Cursor_1.png", "key": "cursor_standart" }
+                ]
+            },
+
+            { "folder": "icons", "key": "icons",
+                "files": [
+                    { "name": "treasure_room.png", "key": "treasure_room" },
+                    { "name": "boss_room.png",     "key": "boss_room" },
+                    { "name": "start_room.png",    "key": "start_room" },
+                    { "name": "hp_bar_part.png",   "key": "hp_bar_part" },
+                    { "name": "bullet_ammo.png",   "key": "bullet_ammo" },
+                    { "name": "lazer_ammo.png",    "key": "lazer_ammo" }
+                ]
+            },
+            { "folder": "MainMenu", "key": "MainMenu",
+                "files": [
+                    { "name": "space_ship.png", "key": "space_ship" }
+                ]
+            },
+            { "folder": "PauseMenu", "key": "PauseMenu",
+                "files": [
+                    { "key": "play",    "name": "play.png" },
+                    { "key": "quit",    "name": "quit.png" },
+                    { "key": "restart", "name": "restart.png" }
+                ]
+            },
+
+
+            { "folder": "Space", "key": "Space",
+                "files": [
+                    { "name": "space_ship.png", "key": "space_ship" },
+                    { "name": "planets.json",   "key": "planets_data" },
+                    { "name": "planets.png",    "key": "planets" },
+                    { "folder": "backgrounds", "key": "backgrounds", 
+                        "files": [
+                            { "name": "1.png", "key": 1 },
+                            { "name": "2.png", "key": 2 },
+                            { "name": "3.png", "key": 3 },
+                            { "name": "4.png", "key": 4 },
+                            { "name": "5.png", "key": 5 }
+                        ]
+                    }
+                ]
+            },
+            
+            { "folder": "tilesets", "key": "tilesets",
+                "files": [
+                    { "name": "desert.png", "key": "desert" }
+                ]
+            },
+
+            { "folder": "entities", "key": "entities",
+                "files": [
+                    { "name": "Spaceman2.png",      "key": "spaceman" },
+                    { "name": "skeleton.png",      "key": "skeleton" },
+                    { "name": "Plant_shooter.png", "key": "plant_shooter" },
+                    { "name": "plant_weapon.png",  "key": "plant_pistol" },
+                    { "name": "water_blob.png",    "key": "water_blob" },
+                    { "name": "pistol.png",        "key": "pistol" },
+                    { "name": "machinegun.png",    "key": "machinegun" },
+                    { "name": "lazer_pistol.png",  "key": "lazer_pistol" }
+                ]
+            },
+
+            { "folder": "particles", "key": "particles",
+                "files": [
+                    { "name": "dust1.png",   "key": "dust_img1" },
+                    { "name": "dust2.png",   "key": "dust_img2" },
+                    { "name": "dust3.png",   "key": "dust_img3" },
+                    { "name": "liquid1.png", "key": "liquid_img1" },
+                    { "name": "liquid2.png", "key": "liquid_img2" },
+                    { "name": "liquid3.png", "key": "liquid_img3" },
+                    { "name": "dust.lua", "key": "dust" },
+                    { "name": "spaceship_trail.lua", "key": "spaceship_trail" },
+                    { "name": "lazer_part.lua", "key": "lazer_part" }
+                ]
+            },
+
+            { "folder": "sfx", "key": "sfx",
+                "files": [
+                    { "name": "pistol.wav", "key": "pistol" }
+                ]
+            }
+
+        ]
+    }
+]

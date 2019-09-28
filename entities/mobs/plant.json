@@ -1,0 +1,95 @@
+{
+    "parent":  "Mob",
+    "type_id": "plant",
+
+    "hp": {
+        "count": 4,
+        "max":   4
+    },
+
+    "hitbox": {
+        "sx": 16,
+        "sy": 16
+    },
+
+    "weapon_hold": {
+        "dx": 8,
+        "dy": 10
+    },
+
+    "patterns": {
+        "_init_": "spawn",
+        "walk": {
+            "animation": "walk",
+            "actions": [
+                "self:move(self.aim.x, self.aim.y)",
+                "if math.random(0, 100) <= 10 then",
+                "   self:aimOn(Player:center())",
+                "   self.weapon:shoot()",
+                "end"
+            ],
+            "next": {
+                "after": 1.5,
+                "name": "stand"
+            }
+        },
+        "stand": {
+            "animation": "stand",
+            "actions": "self:aimOn(Player:center())",
+            "next": {
+                "after": "return math.random(6, 8) / 10",
+                "name": "walk"
+            }
+        },
+        "death": {
+            "animation": "death",
+            "actions": ""
+        },
+        "spawn": {
+            "animation": "spawn",
+            "actions": "",
+            "next": {
+                "after": 0.48,
+                "action": "ROOM.Time:after(0.48, function () self:giveWeapon('plant_pistol') end)",
+                "name": "stand"
+            }
+        }
+    },
+
+    "animation": {
+        "atlas": "Assets: entities.plant_shooter",
+        "frame_size": [16, 16],
+        "types": {
+            "_init_": "spawn",
+            "stand": {
+                "frames": [1, 5],
+                "style":  {"speed": 0.13}
+            },
+            "walk": {
+                "frames": [7, 12],
+                "style":  {"speed": 0.08}
+            },
+            "spawn": {
+                "frames": [13, 18],
+                "style":  {"speed": 0.08}
+            },
+            "death": {
+                "frames": [19, 24],
+                "style":  {"speed": 0.12, "loop": false}
+            }
+        }
+    },
+
+    "on_damage": [
+        "self.sprite_tint.r = self.sprite_tint.r - 1 / self.hp.max",
+        "self.sprite_tint.b = self.sprite_tint.b - 1 / self.hp.max",
+        "self.weapon.shooting.time = self.weapon.shooting.speed"
+    ],
+
+    "on_death": [
+        "self.sprite_tint = color(1, 1, 1)",
+        "self.weapons[1] = nil",
+        "self:setPattern('death')"
+    ]
+
+}
