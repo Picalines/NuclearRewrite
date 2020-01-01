@@ -27,7 +27,7 @@
             "difficulty":   0.4,
             "maps_folder":  "desert",
             "sprite_group": 3,
-            "type": "plain"
+            "type": "desert"
         }
     ]
 }
